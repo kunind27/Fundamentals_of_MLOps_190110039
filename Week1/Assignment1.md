@@ -1,8 +1,15 @@
 # - Question 1
-###  a)
+**a)** AIOps is basically Artificial Intelligence for IT Operations. This new paradigm leverages Machine Learning and Data Analytics to on the data collected from various kinds of DevOps Tools and Services to automatically find out and deal with issues arising in a deployed software service. Basically they are being implemented and used to reduce human-intervention in production side software deployment and reduce the effort needed to continuously monitor the deployed software product.
 
-### b)
+AIOps is very very different from MLOps. MLOps is basically a combination of Machine Learning, Data Engineering and Principles of DevOps to aid in the deployment of Machine Learning Algorithms for practical uses, to keep stock of whatever data we have - i.e data and model versioning and ensure that the deployed model performs well on the new unseen-test examples as well and then retrain the model after a certain period of time. Basically MLOps is all about providing Machine Learning Models as a software product - most of the other things related to the operations side are drawn from traditional DevOps and require human intervention - like monitoring performance, infrastructure creation etc.
 
-### c)
-***
+AIOps is nothing about deploying Machine Learning Algorithms - rather it is a new paradigm altogether which seeks to considerably reduce human effort and areas of human intervention in the DevOps pipeline as a whole. It rather would want to use Machine Learning to Automate DevOps tasks using the data generated during various deployments of software (not necessarily ML related) to automated the various facets of a DevOps pipeline - it can be considered as an ALREADY DEPLOYED ML Algorithm which automates DevOps itself!  
+
+
+**b)** Interpretable Models are basically Machine Learning Models who's results are easily understood by humans - completely in contrast with BlackBox - i.e complicated Machine Learning Models. A Linear Regression Model is one of the simplest ML Models, particularly because the algorithm formulation is very simple, and there exists a closed form solution for the weights of the model - and the closed form is a very simple Linear System. 
+$$y = a_0 + a_1x_1 + a_2x_2 +...$$. When the algorithm performs in a certain way, it is easily understandable by us as to why the model shows a certain output. The model is a Linear Combination of the features and obviously, linear effects are very easily explanable - if the output of the regression is negatively correlated with a feature, and if we have very small value for the output - it can be quickly checked out if that particular feature had a higher value or not - thus the output could be explained by the large magnitude of that variable! If we are trying to understand how well a linear model is performing on the data - we have metrics such as MSE/ MAE and R^2, although R^2 score is somewhat problematic in cases where we have large number of samples and training data - since it would artificially inflate the R^2 score. If we want to check model performance then we need to make sure that the MAE/MSE metrics are small (i.e close to zero) in both train and test sets and the notion on closeness wuold depend on the order of magnitude of the target variable 'y'. We basically can use the values of the coefficients a_i's and the order of magnitudes of the corresponding features to determine the relative importance of each feature in predicting the variable 'y'.
+
+
+c)
+
 # - Question 2
