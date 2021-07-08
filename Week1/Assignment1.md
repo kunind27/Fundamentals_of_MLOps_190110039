@@ -13,3 +13,6 @@ $$y = a_0 + a_1x_1 + a_2x_2 +...$$. When the algorithm performs in a certain way
 c)
 
 # - Question 2
+<p align="center">
+  <img width="1500" src="aws_console.PNG">
+</p>
